@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>player-1</title>
+    <link rel="stylesheet" type="text/css" href="players.css">
+    
+    <script src="player.js"></script>
+</head>
+<body>
+    <dialog id="init_dialog">
+        <div class="init">
+            Name:<input type="text" id="name" placeholder="Enter Name"><br>
+            Boardsize:<input type="number"  id="boardsize" placeholder="20 is recommendable" ><br><br><br>
+            <button type="submit" id="play">Play</button>
+        </div>
+    </dialog>
+
+    <div id="gameplay" >
+        <div id="scoreboard" class="container">
+           <div id = box1>
+                <div id="score"><p>Score::</p></div>
+                <div id="name"><p>Name::</p></div>
+            </div>
+            <div id="twoboard">
+                <div class="container1"></div>
+                  
+                <div id ="container2"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

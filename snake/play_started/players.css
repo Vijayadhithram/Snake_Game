@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+}
+/*first panel for the board */
+.container {
+  margin-right: 1100px;
+  padding-left:10px;
+  display: flex;
+}
+
+/*#scoreboard{
+}*/
+
+#box1{
+  padding-left: 200px;
+  margin-top: 300px;
+  margin-bottom: 360px;
+  padding-right: 40%;
+}
+
+.righthead{
+  transform: rotate(90deg);
+}
+.lefthead{
+  transform: rotate(270deg);
+}
+.downhead{
+  transform: rotate(180deg);
+}
+.uphead{
+  transform: rotate(0deg);
+}
+.snakehead{
+  background-image: url('snakehead.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.snake{
+  background-image: url('snakebody.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.food{
+  background-color: yellow;
+}
+
+#score{
+  padding: 0px 0px 50px 0px;
+}
+
+/*Second panel for the board */
+#twoboard{
+  margin-right: 200px;
+  margin-left: 0px;
+  padding-left: 20px ;
+  padding-right: 600px;
+}
+
+.container1 
+{
+  margin-right: 20px;
+  margin-top: 100px;
+  border: 1px solid blue;
+	width: 80vmin;
+  height: 80vmin;
+  display: grid;
+  grid-template-columns: repeat(20,1fr);
+  grid-template-rows: repeat(20,1fr);
+}
+
+
+.cell {
+  float: left;
+  background-color: #1940FF;
+}
+.twocell {
+  float: left;
+  background-color: #4D6AFF;
+}
